@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: roboto;
+}
+
+/* buttons */
+.button-filled {
+    min-width: 200px;
+    min-height: 70px;
+
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+
+    border: none;
+    border-radius: 50px;
+    background: #4D5BDB;
+
+    transition: 0.2s ease;
+}
+.button-filled:hover {
+    cursor: pointer;
+    background: rgb(60, 73, 184);
+}
+
+
+.button-hollow {
+    min-width: 200px;
+    min-height: 70px;
+
+    font-size: 30px;
+    font-weight: 500;
+    color: #4D5BDB;
+
+    border: 2px solid #4D5BDB;
+    border-radius: 50px;
+    background: white;
+
+    transition: 0.2s ease;
+}
+.button-hollow:hover {
+    cursor: pointer;
+    color: white;
+    background: #4D5BDB;
+}
+
+
+
+
+
+
+.section1 {
+    min-height: 100vh;
+}
+header {
+    border: 1px solid red;
+    width: 100vw;
+    max-width: 100%;
+    min-height: 15vh;
+}
+
+.landing-container {
+    border: 1px solid green;
+    width: 100vw;
+    max-width: 100%;
+    min-height: 85vh;
+}
