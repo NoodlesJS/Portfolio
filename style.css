@@ -1,13 +1,15 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: roboto;
+    font-family: lato;
 }
 
 /* buttons */
 .button-filled {
     min-width: 200px;
     min-height: 70px;
+
+    margin-right:10px;
 
     font-size: 30px;
     font-weight: 500;
@@ -29,6 +31,8 @@
     min-width: 200px;
     min-height: 70px;
 
+    margin-right:10px;
+
     font-size: 30px;
     font-weight: 500;
     color: #4D5BDB;
@@ -45,7 +49,44 @@
     background: #4D5BDB;
 }
 
+.button-container {
+    padding: 10px 0;
+}
 
+
+
+/* TEXT */
+.title-text {
+    font-size: 64px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.header-text {}
+.small-text {
+    font-size: 24px;
+    padding: 10px 0 20px 0;
+}
+
+
+
+
+.box {
+    /* border: 1px solid black; */
+    width: 600px;
+    min-height: 600px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.picture-box {
+    /* border: 1px dashed green; */
+    width: 600px;
+    min-height: 600px;
+    margin: 10px;
+}
 
 
 
@@ -54,15 +95,55 @@
     min-height: 100vh;
 }
 header {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100vw;
     max-width: 100%;
     min-height: 15vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .landing-container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100vw;
     max-width: 100%;
     min-height: 85vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+
+@media screen and (max-width: 1242px) {
+    .button-filled {
+        width: 100%;
+
+        margin-right: 0;
+    }
+    .button-hollow {
+        width: 100%;
+
+        margin-right: 0;
+    }
+
+    .button-container {
+        width: 100%;
+        min-height: 200px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box {
+        min-height: auto;
+    }
+    .picture-box {
+        min-height: auto;
+    }
 }
