@@ -94,6 +94,7 @@
     min-height: 15vh;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 header {
     /* border: 1px solid red; */
@@ -105,17 +106,25 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-header img {
-    
-}
-header p {
+.section1 p {
     font-size: 1.2em;
     font-weight: 900;
     color: rgb(124, 136, 241);
 }
-header p:hover {
+.section1 p:hover {
     cursor: pointer;
     color: #4D5BDB;
+}
+
+.menu {
+    display: flex;
+    width: 30vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu a {
+    text-decoration: none;
+    margin-right: 100px;
 }
 
 
