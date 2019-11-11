@@ -6,7 +6,7 @@
 
 /* buttons */
 .button-filled {
-    min-width: 200px;
+    width: 200px;
     min-height: 70px;
 
     margin-right:10px;
@@ -148,6 +148,60 @@ header img {
 }
 
 
+
+.section4 {
+    background-image: url(./img/contact_bg_vector.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section4 form {
+    
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section4 form .ph {
+    font-size: 24px;
+    color: rgb(117, 117, 117);
+    padding-left: 30px;
+}
+
+
+
+.inputs-text {
+    width: 90%;
+    height: 70px;
+
+    background: #F3F3F3;
+    border: none;
+    border-radius: 10px;
+}
+.inputs-message {
+    width: 90%;
+    height: 200px;
+
+    padding: 10px;
+
+    background: #F3F3F3;
+    border: none;
+    border-radius: 10px;
+}
+
+
 @media screen and (max-width: 1242px) {
     .button-filled {
         width: 100%;
@@ -176,10 +230,23 @@ header img {
     .picture-box {
         min-height: auto;
     }
+
+
+    .section4 form {
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 500px) {
     header img {
         width: 200px;
+    }
+
+    .section4 {
+        background: none;
+    }
+    /* if section4 background is visible, contact-text will need to be white */
+    .contact-text {
+        /* color: white; */ 
     }
 }
