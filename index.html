@@ -16,7 +16,7 @@
             <header>
                 <img src="./img/logo.svg" alt="image of logo">
                 <div class="menu">
-                    <a href=""><p>WORK</p></a>
+                    <a href="#work"><p>WORK</p></a>
                     <a href=""><p>RESUME</p></a>
                     <a href="#contact"><p>CONTACT</p></a>
                     <div class="burger">
@@ -28,7 +28,7 @@
             </header>
             <div class="burger-menu hide">
                 <div class="dropdown">
-                    <a href=""><p>WORK</p></a>
+                    <a href="#work"><p>WORK</p></a>
                     <a href=""><p>RESUME</p></a>
                     <a href="#contact"><p>CONTACT</p></a>
                 </div>
@@ -50,8 +50,8 @@
                         based in <span style="color: #273138; font-weight: bolder;">Houston, Texas</span>
                     </p>
                     <div class="button-container">
-                        <button class="button-filled">WORK</button>
-                        <button class="button-hollow">RESUME</button>
+                        <a href="#work"><button class="button-filled">WORK</button></a>
+                        <a href=""><button class="button-hollow">RESUME</button></a>
                     </div>
                 </div>
                 <div class="picture-box">
@@ -59,7 +59,24 @@
                 </div>
             </div>
         </section>
-        <section class="section3"></section>
+        <section class="section3" id="work">
+            <p class="title-text" style="margin: 70px 0;">MY WORK</p>
+            <div class="card">
+                <div class="picture-box-card">
+                    <img src="./img/business_consultancy.svg" alt="">
+                </div>
+                <div class="box-card">
+                    <p class="work-title">Project 1</p>
+                    <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente assumenda magni pariatur eligendi quas vero! Eos excepturi illo voluptas, maiores nostrum unde provident, aliquam modi repudiandae, iure id pariatur.</p>
+                    <div class="button-container">
+                        <a href=""><button class="button-filled">PREVIEW</button></a>
+                        <a href=""><button class="button-hollow">CODE</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </section>
         <section class="section4" id="contact">
             <div class="box">
                 <p class="title-text contact-text">
@@ -74,8 +91,8 @@
                     <button class="button-filled">SUBMIT</button>
                 </form>
             </div>
-            <div class="box">
-               
+            <div class="picture-box">
+              
             </div>
         </section>
     </main>

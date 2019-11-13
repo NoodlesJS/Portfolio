@@ -5,6 +5,11 @@
     scroll-behavior: smooth;
 }
 
+
+
+
+
+
 /* buttons */
 .button-filled {
     width: 200px;
@@ -56,9 +61,21 @@
 
 
 
+
+
+
+
+
+
+
 /* TEXT */
 .title-text {
     font-size: 64px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.work-title {
+    font-size: 42px;
     font-weight: 900;
     padding-bottom: 10px;
 }
@@ -70,11 +87,16 @@
 
 
 
+
+
+
+
+
 .box {
     /* border: 1px solid black; */
     width: 600px;
     min-height: 600px;
-    margin: 10px;
+    margin: 20px;
 
     display: flex;
     flex-direction: column;
@@ -85,8 +107,34 @@
     /* border: 1px dashed green; */
     width: 600px;
     min-height: 600px;
-    margin: 10px;
+    margin: 20px;
 }
+
+.box-card {
+    /* border: 1px solid black; */
+    width: 500px;
+    min-height: 500px;
+    margin: 20px 20px 60px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.picture-box-card {
+    /* border: 1px dashed green; */
+    width: 500px;
+    min-height: 500px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -132,7 +180,6 @@ header img {
     margin-right: 100px;
 }
 
-
 .section2 {
     min-height: 85vh;
 }
@@ -147,6 +194,53 @@ header img {
     align-items: center;
     flex-wrap: wrap-reverse;
 }
+
+
+
+
+
+
+
+
+
+
+
+.section3 {
+    min-height: 100vh;
+    width: 100vw;
+    width: 100%;
+    margin-top: 100px;
+
+    background: #F4F4F4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+    min-height: 600px;
+
+    margin-bottom: 50px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.05);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -203,6 +297,13 @@ header img {
 }
 
 
+
+
+
+
+
+
+
 @media screen and (max-width: 1242px) {
     .button-filled {
         width: 100%;
@@ -225,10 +326,20 @@ header img {
         align-items: center;
     }
 
+    .button-container a {
+        width: 100%;
+    }
+
     .box {
         min-height: auto;
     }
     .picture-box {
+        min-height: auto;
+    }
+    .box-card {
+        min-height: auto;
+    }
+    .picture-box-card {
         min-height: auto;
     }
 
