@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,500,700,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
@@ -43,7 +44,7 @@
         </section>
         <section class="section2">
             <div class="landing-container">
-                <div class="box">
+                <div class="box" data-aos='fade-right'>
                     <p class="title-text" style="color: #273138;">
                         HEY
                         <br>
@@ -59,7 +60,7 @@
                         <a href=""><button class="button-hollow">RESUME</button></a>
                     </div>
                 </div>
-                <div class="picture-box">
+                <div class="picture-box" data-aos='fade-left'>
                     <img src="./img/landing_illustration.svg" alt="">
                 </div>
             </div>
@@ -68,7 +69,7 @@
             <p class="title-text" style="margin: 70px 0;">MY WORK</p>
         </section>
         <section class="section4" id="contact">
-            <div class="box">
+            <div class="box" data-aos='fade-left'>
                 <p class="title-text contact-text">
                     CONTACT
                     <br>
@@ -88,5 +89,12 @@
     </main>
 
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 900
+        });
+    </script>
 </body>
 </html>

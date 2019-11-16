@@ -36,7 +36,7 @@ function RenderWork(data) {
 function loopWork() {
     Mywork.forEach(function(project) {
         let data = `
-        <div class="card">
+        <div class="card" data-aos='fade-right'>
                 <div class="picture-box-card">
                     <img src="${project.img}" alt="${project.alt}">
                 </div>
