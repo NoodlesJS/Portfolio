@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,500,700,900&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
@@ -15,7 +13,7 @@
     <main>
         <section class="top">
             <a href="#header">
-                <img src="./img/top-01.svg" alt="">
+                <img src="./img/top.svg" alt="">
             </a>
         </section>
         <section class="section1" id="header">
@@ -23,7 +21,7 @@
                 <img src="./img/logo.svg" alt="image of logo">
                 <div class="menu">
                     <a href="#work"><p>WORK</p></a>
-                    <a href=""><p>RESUME</p></a>
+                    <a href="./img/resume/resume.pdf" target="_blank"><p>RESUME</p></a>
                     <a href="#contact"><p>CONTACT</p></a>
                     <div class="burger">
                         <div class="line"></div>
@@ -35,7 +33,7 @@
             <div class="burger-menu hide">
                 <div class="dropdown">
                     <a href="#work"><p>WORK</p></a>
-                    <a href=""><p>RESUME</p></a>
+                    <a href="./img/resume/resume.pdf" target="_blank"><p>RESUME</p></a>
                     <a href="#contact"><p>CONTACT</p></a>
                 </div>
             </div>
@@ -44,7 +42,7 @@
         </section>
         <section class="section2">
             <div class="landing-container">
-                <div class="box" data-aos='fade-right'>
+                <div class="box">
                     <p class="title-text" style="color: #273138;">
                         HEY
                         <br>
@@ -60,7 +58,7 @@
                         <a href="#contact"><button class="button-hollow">CONTACT</button></a>
                     </div>
                 </div>
-                <div class="picture-box" data-aos='fade-left'>
+                <div class="picture-box">
                     <img src="./img/landing_illustration.svg" alt="">
                 </div>
             </div>
@@ -69,7 +67,7 @@
             <p class="title-text" style="margin: 70px 0;">MY WORK</p>
         </section>
         <section class="section4" id="contact">
-            <div class="box" data-aos='fade-left'>
+            <div class="box">
                 <p class="title-text contact-text">
                     CONTACT
                     <br>
@@ -82,19 +80,13 @@
                     <button class="button-filled">SUBMIT</button>
                 </form>
             </div>
-            <div class="picture-box">
-              
+            <div class="box">
+              <p class="small-text">romaenwritescode@gmail.com</p>
+              <a href="https://github.com/NoodlesJS" target="_blank"><img src="./img/icons/github.png" alt="image of github" width="50px"></a>
             </div>
         </section>
     </main>
 
     <script src="app.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            offset: 150,
-            duration: 900
-        });
-    </script>
 </body>
 </html>

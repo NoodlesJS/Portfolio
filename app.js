@@ -8,6 +8,14 @@ let Mywork = [
         img: './img/projects/quick_pokedex.png',
         alt: 'Picture of project'
     },
+    {
+        name: 'USBD Market Access',
+        desc: 'A landing page for the company USBD market access. Client wanted something straight forward to showcase their services and a little tidbit about themselves',
+        preview: 'https://usbdmarketaccess.com/',
+        code: 'https://github.com/NoodlesJS/USBD-MARKET-ACCESS-Landing-page',
+        img: './img/projects/usbd.png',
+        alt: 'Picture of project'
+    },
     
 ];
 
@@ -36,7 +44,7 @@ function RenderWork(data) {
 function loopWork() {
     Mywork.forEach(function(project) {
         let data = `
-        <div class="card" data-aos='fade-right'>
+        <div class="card">
                 <div class="picture-box-card">
                     <img src="${project.img}" alt="${project.alt}">
                 </div>

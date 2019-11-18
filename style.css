@@ -361,11 +361,7 @@ header img {
     }
 }
 
-@media screen and (max-width: 500px) {
-    header img {
-        width: 200px;
-    }
-
+@media screen and (max-width: 1000px) {
     .section4 {
         background: none;
     }
@@ -373,4 +369,11 @@ header img {
     .contact-text {
         /* color: white; */ 
     }
+}
+
+@media screen and (max-width: 500px) {
+    header img {
+        width: 200px;
+    }
+    
 }
