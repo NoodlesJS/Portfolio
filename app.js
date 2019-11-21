@@ -2,7 +2,7 @@
 let Mywork = [
     {
         name: 'Portfolio',
-        desc: 'My personal portfolio. I developed it with html, css and vanilla js. I created my own css style structure to make it responsive and adaptive to new content I add.',
+        desc: 'My personal portfolio that was designed and built from scratch using plain html, css and vanilla js.',
         preview: 'https://noodlesjs.dev/',
         code: 'https://github.com/NoodlesJS/Portfolio',
         img: './img/projects/portfolio.png',
@@ -10,7 +10,7 @@ let Mywork = [
     },
     {
         name: 'Quick Pokedex',
-        desc: 'A quick pokedex application that uses various web api to fetch quick short bite info about any pokemon in the offical pokedex',
+        desc: 'A pokedex application that uses various web api to fetch quick short info about any pokemon in the offical pokedex',
         preview: 'https://quickpokedex.netlify.com/',
         code: 'https://github.com/NoodlesJS/Quick-Pokedex',
         img: './img/projects/quick_pokedex.png',
@@ -18,7 +18,7 @@ let Mywork = [
     },
     {
         name: 'USBD Market Access',
-        desc: 'A landing page for the company USBD market access. Client wanted something straight forward to showcase their services and a little tidbit about themselves',
+        desc: 'A landing page for the company USBD market access. Client wanted something straight forward to showcase their services',
         preview: 'https://usbdmarketaccess.com/',
         code: 'https://github.com/NoodlesJS/USBD-MARKET-ACCESS-Landing-page',
         img: './img/projects/usbd.png',
@@ -30,6 +30,14 @@ let Mywork = [
         preview: 'https://shopalmary.com/',
         code: 'https://github.com/NoodlesJS/Almary-Landing-Page',
         img: './img/projects/almary.png',
+        alt: 'Picture of project'
+    },
+    {
+        name: 'Overwatch Quiz',
+        desc: 'A quiz application based on the 1st Overwatch League season. This was the 1st application I ever built',
+        preview: 'https://noodlesjs.github.io/Overwatch-league-quiz/',
+        code: 'https://github.com/NoodlesJS/Overwatch-league-quiz',
+        img: './img/projects/overwatch_quiz.png',
         alt: 'Picture of project'
     },
     
