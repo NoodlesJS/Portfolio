@@ -1,6 +1,14 @@
 // Collection of my works
 let Mywork = [
     {
+        name: 'Portfolio',
+        desc: 'My personal portfolio. I developed it with html, css and vanilla js. I created my own css style structure to make it responsive and adaptive to new content I add.',
+        preview: 'https://noodlesjs.dev/',
+        code: 'https://github.com/NoodlesJS/Portfolio',
+        img: './img/projects/portfolio.png',
+        alt: 'Picture of project'
+    },
+    {
         name: 'Quick Pokedex',
         desc: 'A quick pokedex application that uses various web api to fetch quick short bite info about any pokemon in the offical pokedex',
         preview: 'https://quickpokedex.netlify.com/',
@@ -14,6 +22,14 @@ let Mywork = [
         preview: 'https://usbdmarketaccess.com/',
         code: 'https://github.com/NoodlesJS/USBD-MARKET-ACCESS-Landing-page',
         img: './img/projects/usbd.png',
+        alt: 'Picture of project'
+    },
+    {
+        name: 'Almary',
+        desc: 'A landing page for a clothing merchandise company. I am currently helping build a shopify application for Almary',
+        preview: 'https://shopalmary.com/',
+        code: 'https://github.com/NoodlesJS/Almary-Landing-Page',
+        img: './img/projects/almary.png',
         alt: 'Picture of project'
     },
     
