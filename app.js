@@ -2,7 +2,8 @@
 let Mywork = [
     {
         name: 'Portfolio',
-        desc: 'My personal portfolio that was designed and built from scratch using plain html, css and vanilla js.',
+        desc: 'Personal Portfolio that was designed and built from scratch',
+        tech:'Figma, HTML, CSS, Vanilla JS',
         preview: 'https://noodlesjs.dev/',
         code: 'https://github.com/NoodlesJS/Portfolio',
         img: './img/projects/portfolio.png',
@@ -10,7 +11,8 @@ let Mywork = [
     },
     {
         name: 'Quick Pokedex',
-        desc: 'A pokedex application that uses various web api to fetch quick short info about any pokemon in the offical pokedex',
+        desc: 'A pokedex application that uses various web api to fetch quick short info about any pokemon from the offical pokedex',
+        tech:'Figma, HTML, CSS, Vanilla JS',
         preview: 'https://quickpokedex.netlify.com/',
         code: 'https://github.com/NoodlesJS/Quick-Pokedex',
         img: './img/projects/quick_pokedex.png',
@@ -18,7 +20,8 @@ let Mywork = [
     },
     {
         name: 'USBD Market Access',
-        desc: 'A landing page for the company USBD market access. Client wanted something straight forward to showcase their services',
+        desc: 'A landing page for the company USBD market access.',
+        tech:'Figma, HTML, CSS',
         preview: 'https://usbdmarketaccess.com/',
         code: 'https://github.com/NoodlesJS/USBD-MARKET-ACCESS-Landing-page',
         img: './img/projects/usbd.png',
@@ -27,6 +30,7 @@ let Mywork = [
     {
         name: 'Almary',
         desc: 'A landing page for a clothing merchandise company. I am currently helping build a shopify application for Almary',
+        tech:'Figma, HTML, CSS',
         preview: 'https://shopalmary.com/',
         code: 'https://github.com/NoodlesJS/Almary-Landing-Page',
         img: './img/projects/almary.png',
@@ -35,6 +39,7 @@ let Mywork = [
     {
         name: 'Overwatch Quiz',
         desc: 'A quiz application based on the 1st Overwatch League season. This was the 1st application I ever built',
+        tech:'HTML, CSS, Vanilla JS',
         preview: 'https://noodlesjs.github.io/Overwatch-league-quiz/',
         code: 'https://github.com/NoodlesJS/Overwatch-league-quiz',
         img: './img/projects/overwatch_quiz.png',
@@ -75,6 +80,7 @@ function loopWork() {
                 <div class="box-card">
                     <p class="work-title">${project.name}</p>
                     <p class="small-text">${project.desc}</p>
+                    <p class="small-text"><i> Tech Used: ${project.tech}</i></p>
                     <div class="button-container">
                         <a href="${project.preview}" target="_blank"><button class="button-filled">PREVIEW</button></a>
                         <a href="${project.code}" target="_blank"><button class="button-hollow">CODE</button></a>
