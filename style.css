@@ -20,6 +20,23 @@
 
 
 /* buttons */
+.button-inactive {
+    width: 200px;
+    min-height: 70px;
+
+    margin-right:10px;
+
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(173, 173, 173);
+
+    border: none;
+    border-radius: 50px;
+    background: rgb(207, 207, 207);
+
+    transition: 0.2s ease;
+}
+
 .button-filled {
     width: 200px;
     min-height: 70px;
