@@ -28,15 +28,6 @@ let Mywork = [
         alt: 'Picture of project'
     },
     {
-        name: 'Almary',
-        desc: 'A landing page for a clothing merchandise company. I am currently helping build a shopify application for Almary',
-        tech:'Figma, HTML, CSS',
-        preview: 'https://shopalmary.com/',
-        code: 'https://github.com/NoodlesJS/Almary-Landing-Page',
-        img: './img/projects/almary.png',
-        alt: 'Picture of project'
-    },
-    {
         name: 'Overwatch Quiz',
         desc: 'A quiz application based on the 1st Overwatch League season. This was the 1st application I ever built',
         tech:'HTML, CSS, Vanilla JS',
