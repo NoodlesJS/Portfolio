@@ -31,7 +31,7 @@
     color: rgb(173, 173, 173);
 
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
     background: rgb(207, 207, 207);
 
     transition: 0.2s ease;
@@ -48,7 +48,7 @@
     color: white;
 
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
     background: #4D5BDB;
 
     transition: 0.2s ease;
@@ -70,7 +70,7 @@
     color: #4D5BDB;
 
     border: 2px solid #4D5BDB;
-    border-radius: 50px;
+    border-radius: 5px;
     background: white;
 
     transition: 0.2s ease;
