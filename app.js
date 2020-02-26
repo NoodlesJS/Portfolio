@@ -2,7 +2,7 @@
 let Mywork = [
     {
         name: 'Carevillage',
-        desc: 'Full stack application that helps keep tract of your medicine',
+        desc: 'Full stack application that helps keep track of your medicine',
         tech:'Figma, HTML, CSS, Vanilla JS, Node.js, Express, MongoDB',
         button1: 'PREVIEW',
         button2: 'CODE',
