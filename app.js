@@ -1,8 +1,34 @@
 // Collection of my works
 let Mywork = [
     {
+        name: 'Carevillage',
+        desc: 'Full stack application that helps keep tract of your medicine',
+        tech:'Figma, HTML, CSS, Vanilla JS, Node.js, Express, MongoDB',
+        button1: 'PREVIEW',
+        button2: 'CODE',
+        button1_style: 'button-filled',
+        button2_style: 'button-hollow',
+        button1_link: 'https://gentle-lake-89085.herokuapp.com/',
+        button2_link: 'https://github.com/NoodlesJS/Carevillage',
+        img: './img/projects/carevillage.png',
+        alt: 'Picture of project'
+    },
+    {
+        name: 'Quick Pokedex',
+        desc: 'A pokedex application that uses various web api to fetch quick short info about any pokemon from the offical pokedex',
+        tech:'Figma, HTML, CSS, Vanilla JS',
+        button1: 'PREVIEW',
+        button2: 'CODE',
+        button1_style: 'button-filled',
+        button2_style: 'button-hollow',
+        button1_link: 'https://quickpokedex.netlify.com/',
+        button2_link: 'https://github.com/NoodlesJS/Quick-Pokedex',
+        img: './img/projects/quick_pokedex.png',
+        alt: 'Picture of project'
+    },
+    {
         name: 'LOP Network UI',
-        desc: 'UI design for clients application',
+        desc: 'UI design of an application for client',
         tech:'Figma',
         button1: 'PREVIEW',
         button2: 'NULL',
@@ -26,45 +52,19 @@ let Mywork = [
         img: './img/projects/portfolio.png',
         alt: 'Picture of project'
     },
-    {
-        name: 'Quick Pokedex',
-        desc: 'A pokedex application that uses various web api to fetch quick short info about any pokemon from the offical pokedex',
-        tech:'Figma, HTML, CSS, Vanilla JS',
-        button1: 'PREVIEW',
-        button2: 'CODE',
-        button1_style: 'button-filled',
-        button2_style: 'button-hollow',
-        button1_link: 'https://quickpokedex.netlify.com/',
-        button2_link: 'https://github.com/NoodlesJS/Quick-Pokedex',
-        img: './img/projects/quick_pokedex.png',
-        alt: 'Picture of project'
-    },
-    {
-        name: 'USBD Market Access',
-        desc: 'A landing page for the company USBD market access.',
-        tech:'Figma, HTML, CSS',
-        button1: 'PREVIEW',
-        button2: 'CODE',
-        button1_style: 'button-filled',
-        button2_style: 'button-hollow',
-        button1_link: 'https://usbdmarketaccess.com/',
-        button2_link: 'https://github.com/NoodlesJS/USBD-MARKET-ACCESS-Landing-page',
-        img: './img/projects/usbd.png',
-        alt: 'Picture of project'
-    },
-    {
-        name: 'Overwatch Quiz',
-        desc: 'A quiz application based on the 1st Overwatch League season. This was the 1st application I ever built',
-        tech:'HTML, CSS, Vanilla JS',
-        button1: 'PREVIEW',
-        button2: 'CODE',
-        button1_style: 'button-filled',
-        button2_style: 'button-hollow',
-        button1_link: 'https://noodlesjs.github.io/Overwatch-league-quiz/',
-        button2_link: 'https://github.com/NoodlesJS/Overwatch-league-quiz',
-        img: './img/projects/overwatch_quiz.png',
-        alt: 'Picture of project'
-    },
+    // {
+    //     name: 'Overwatch Quiz',
+    //     desc: 'A quiz application based on the 1st Overwatch League season. This was the 1st application I ever built',
+    //     tech:'HTML, CSS, Vanilla JS',
+    //     button1: 'PREVIEW',
+    //     button2: 'CODE',
+    //     button1_style: 'button-filled',
+    //     button2_style: 'button-hollow',
+    //     button1_link: 'https://noodlesjs.github.io/Overwatch-league-quiz/',
+    //     button2_link: 'https://github.com/NoodlesJS/Overwatch-league-quiz',
+    //     img: './img/projects/overwatch_quiz.png',
+    //     alt: 'Picture of project'
+    // }
     
 ];
 
